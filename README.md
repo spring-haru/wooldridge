@@ -2,14 +2,14 @@
 ### Data sets for _Introductory Econometrics: A Modern Approach_ (6th ed, J.M. Wooldridge)
 
 ## Description
-A Python package which contains 111 data sets for the world famous econometrics textbook.
+A Python package which contains 111 data sets from one of the most famous **econometrics** textbooks for undergraduates.
 
 ## How to Use
-To load a data set:
+To import a `<dataset>`:
 ```
 from wooldridge import <dataset>
 ```
-For example, to load a data set `mroz` as `DataFrame` into `df`:
+For example, to load a data set `mroz` as pandas' `DataFrame` into `df`:
 ```
 from wooldridge import mroz
 df = mroz.load()
