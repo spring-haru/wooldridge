@@ -23,5 +23,5 @@ setup(
     license='LICENSE',
     description='Data sets for Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)',
     long_description=open('README.md').read(),
-    install_requires=[],
+    keywords=['data', 'wooldridge', 'econometrics'],
 )
