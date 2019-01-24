@@ -31,6 +31,10 @@ mroz.wooldridge()
 
 ## How to Install
 ```
+pip install wooldridge
+```
+or
+```
 git clone https://github.com/spring-haru/wooldridge.git
 pip install .
 ```
