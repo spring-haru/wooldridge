@@ -15,7 +15,6 @@ setup(
     author='Tetsu Haruyama',
     author_email='tetsu.yes@gmail.com',
     packages=find_packages(),
-    # packages=['wooldridge'],
     package_dir={'wooldridge': './wooldridge'},
     include_package_data=True,
     package_data={'wooldridge': additional_files},
@@ -23,5 +22,6 @@ setup(
     license='LICENSE',
     description='Data sets for Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)',
     long_description=open('README.md').read(),
-    keywords=['data', 'wooldridge', 'econometrics'],
+    long_description_content_type='text/markdown',
+    keywords=['data', 'wooldridge', 'econometrics']
 )
