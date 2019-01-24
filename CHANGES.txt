@@ -1,1 +1,3 @@
-0.1.0 First upload (24 Jan 2019)
+0.1.0 First upload
+0.1.1 README.md changed in How to Install
+      long_description_content_type in setup.py added
