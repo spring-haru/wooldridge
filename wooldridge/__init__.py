@@ -11,12 +11,6 @@ def load(module, file_name):
     return pd.read_csv(join(get_path(module), file_name), compression='bz2')
 
 
-# def dataset_list():
-#     t = pd.read_csv(
-#         join(get_path(__file__), 'dataset_list.csv.bz2'), compression='bz2')
-#     return t.drop('Unnamed: 0', axis=1)
-
-
 dataset_list = """\
  _401k      _401ksubs   admnrev       affairs     airfare
  alcohol    apple       approval      athlet1     athlet2
