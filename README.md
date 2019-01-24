@@ -43,3 +43,6 @@ pip install .
 Those two data sets are renamed with an **underscore** as follows:
 * `401k` -> **`_401k`**
 * `401ksubs` -> **`_401ksubs`**
+
+#### Reference
+J.M. Wooldridge (2015) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.
