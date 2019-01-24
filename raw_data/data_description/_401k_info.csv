@@ -1,0 +1,9 @@
+variable,label
+prate,"participation rate, percent"
+mrate,401k plan match rate
+totpart,total 401k participants
+totelg,total eligible for 401k plan
+age,age of 401k plan
+totemp,total number of firm employees
+sole,= 1 if 401k is firm's sole plan
+ltotemp,log of totemp

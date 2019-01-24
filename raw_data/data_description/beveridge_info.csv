@@ -1,0 +1,9 @@
+variable,label
+month,dec 200 through feb 2012
+urate,"unemployment rate, percent"
+vrate,"vacancy rate, percent"
+t,linear time trend
+urate_1,L.urate
+vrate_1,L.vrate
+curate,D.urate
+cvrate,D.vrate

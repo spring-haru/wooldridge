@@ -1,0 +1,13 @@
+variable,label
+price,"median housing price, $"
+crime,crimes committed per capita
+nox,nit ox concen; parts per 100m
+rooms,avg number of rooms
+dist,wght dist to 5 employ centers
+radial,access. index to rad. hghwys
+proptax,property tax per $1000
+stratio,average student-teacher ratio
+lowstat,perc of people 'lower status'
+lprice,log(price)
+lnox,log(nox)
+lproptax,log(proptax)

@@ -1,0 +1,9 @@
+variable,label
+price,NYSE stock price index
+return,100*(p - p(-1))/p(-1))
+return_1,lagged return
+t,
+price_1,
+price_2,
+cprice,price - price_1
+cprice_1,lagged cprice

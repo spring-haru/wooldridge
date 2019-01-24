@@ -1,0 +1,7 @@
+variable,label
+state,State (ICPSR code)
+puma,Public Use Microdata Area
+educ,educational attainment
+lweekinc,log(weekly income)
+exper,years workforce experience
+expersq,exper^2
