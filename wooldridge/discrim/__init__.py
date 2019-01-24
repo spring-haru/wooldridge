@@ -56,4 +56,4 @@ def load():
 
 def wooldridge():
     import wooldridge
-    return wooldridge.dataset_list()
+    print(wooldridge.dataset_list)
