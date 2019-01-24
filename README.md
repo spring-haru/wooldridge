@@ -1,7 +1,7 @@
 # Wooldridge Meets Python
-### Data sets for Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)
+### Data sets for _Introductory Econometrics: A Modern Approach_ (6th ed, J.M. Wooldridge)
 
-## What?
+## Description
 A Python package which contains 111 data sets for the world famous econometrics textbook.
 
 ## How to Use
