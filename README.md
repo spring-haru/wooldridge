@@ -14,9 +14,11 @@ For example, to load a data set `mroz` as `DataFrame` into `df`:
 from wooldridge import mroz
 df = mroz.load()
 ```
-To show the description (e.g. variable definitions and sources) of a data set loaded:
+To show the description (e.g. variable definitions and sources) of a data set loaded, use one of the followings:
 ```
 help(mroz.load)
+?mroz.load
+mroz.load?
 ```
 To show the list of 111 data sets contained in the package when `<dataset>` is loaded:
 ```
