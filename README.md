@@ -1,5 +1,5 @@
 # Wooldridge Meets Python
-#### Data sets for Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)
+### Data sets for Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)
 
 ## What?
 A Python package which contains 111 data sets for the world famous econometrics textbook.
@@ -35,5 +35,5 @@ pip install .
 
 ## Notes on `401k` and `401ksubs`
 Those two data sets are renamed with an **underscore** as follows:
-`401k` -> **`_401k`**
-`401ksubs` -> **`_401ksubs`**
+* `401k` -> **`_401k`**
+* `401ksubs` -> **`_401ksubs`**
