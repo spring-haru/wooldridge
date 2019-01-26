@@ -1,5 +1,5 @@
 """
-Github page: https://github.com/spring-haru/wooldridge.git
+Github page: https://github.com/spring-haru/wooldridge
 """
 
 from .load_data import *
