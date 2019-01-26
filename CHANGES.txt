@@ -1,3 +1,7 @@
-0.1.0 First upload
+0.2.0 A function <dataset>.load() is replaced with dataWoo('<dataset>').
+      A function help(<dataset>.load) is replaced with dataWoo('<dataset>', description=True).
+      A function <dataset>.wooldridge() is replaced with listWoo().
+      README.md changed accordingly.
 0.1.1 README.md changed in How to Install
       long_description_content_type in setup.py added
+0.1.0 First upload
