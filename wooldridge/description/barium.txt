@@ -1,0 +1,44 @@
+name of dataset: barium
+no of variables: 31
+no of observations: 131
+
++----------+---------------------------------+
+| variable | label                           |
++----------+---------------------------------+
+| chnimp   | Chinese imports, bar. chl.      |
+| bchlimp  | total imports bar. chl.         |
+| befile6  | =1 for all 6 mos before filing  |
+| affile6  | =1 for all 6 mos after filing   |
+| afdec6   | =1 for all 6 mos after decision |
+| befile12 | =1 all 12 mos before filing     |
+| affile12 | =1 all 12 mos after filing      |
+| afdec12  | =1 all 12 mos after decision    |
+| chempi   | chemical production index       |
+| gas      | gasoline production             |
+| rtwex    | exchange rate index             |
+| spr      | =1 for spring months            |
+| sum      | =1 for summer months            |
+| fall     | =1 for fall months              |
+| lchnimp  | log(chnimp)                     |
+| lgas     | log(gas)                        |
+| lrtwex   | log(rtwex)                      |
+| lchempi  | log(chempi)                     |
+| t        | time trend                      |
+| feb      | =1 if month is feb              |
+| mar      | =1 if month is march            |
+| apr      |                                 |
+| may      |                                 |
+| jun      |                                 |
+| jul      |                                 |
+| aug      |                                 |
+| sep      |                                 |
+| oct      |                                 |
+| nov      |                                 |
+| dec      |                                 |
+| percchn  | % imports from china            |
++----------+---------------------------------+
+
+C.M. Krupp and P.S. Pollard (1999), "Market Responses to Antidumpting
+Laws: Some Evidence from the U.S. Chemical Industry," Canadian Journal
+of Economics 29, 199-227. Dr. Krupp kindly provided the data. They are
+monthly data covering February 1978 through December 1988.

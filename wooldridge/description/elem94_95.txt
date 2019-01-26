@@ -1,0 +1,26 @@
+name of dataset: elem94_95
+no of variables: 14
+no of observations: 1848
+
++----------+----------------------------------------+
+| variable | label                                  |
++----------+----------------------------------------+
+| distid   | district identifier                    |
+| schid    | school identifier                      |
+| lunch    | percent eligible, free lunch           |
+| enrol    | enrollment                             |
+| staff    | staff per 1000 students                |
+| exppp    | expenditures per pupil                 |
+| avgsal   | average teacher salary, $              |
+| avgben   | average teacher non-salary benefits, $ |
+| math4    | percent passing 4th grade math test    |
+| story4   | percent passing 4th grade reading test |
+| bs       | avgben/avgsal                          |
+| lavgsal  | log(avgsal)                            |
+| lenrol   | log(enrol)                             |
+| lstaff   | log(staff)                             |
++----------+----------------------------------------+
+
+Culled from a panel data set used by Leslie Papke in her paper “The
+Effects of Spending on Test Pass Rates: Evidence from Michigan”
+(2005), Journal of Public Economics 89, 821-839.

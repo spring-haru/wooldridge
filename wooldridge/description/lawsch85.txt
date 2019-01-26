@@ -1,0 +1,35 @@
+name of dataset: lawsch85
+no of variables: 21
+no of observations: 156
+
++----------+----------------------------+
+| variable | label                      |
++----------+----------------------------+
+| rank     | law school ranking         |
+| salary   | median starting salary     |
+| cost     | law school cost            |
+| LSAT     | median LSAT score          |
+| GPA      | median college GPA         |
+| libvol   | no. volumes in lib., 1000s |
+| faculty  | no. of faculty             |
+| age      | age of law sch., years     |
+| clsize   | size of entering class     |
+| north    | =1 if law sch in north     |
+| south    | =1 if law sch in south     |
+| east     | =1 if law sch in east      |
+| west     | =1 if law sch in west      |
+| lsalary  | log(salary)                |
+| studfac  | student-faculty ratio      |
+| top10    | =1 if ranked in top 10     |
+| r11_25   | =1 if ranked 11-25         |
+| r26_40   | =1 if ranked 26-40         |
+| r41_60   | =1 if ranked 41-60         |
+| llibvol  | log(libvol)                |
+| lcost    | log(cost)                  |
++----------+----------------------------+
+
+Collected by Kelly Barnett, an MSU economics student, for use in a
+term project. The data come from two sources: The Official Guide to
+U.S. Law Schools, 1986, Law School Admission Services, and The Gourman
+Report: A Ranking of Graduate and Professional Programs in American
+and International Universities, 1995, Washington, D.C.

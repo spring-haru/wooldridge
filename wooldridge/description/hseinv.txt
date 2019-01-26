@@ -1,0 +1,27 @@
+name of dataset: hseinv
+no of variables: 14
+no of observations: 42
+
++----------+-------------------------------+
+| variable | label                         |
++----------+-------------------------------+
+| year     | 1947-1988                     |
+| inv      | real housing inv, millions $  |
+| pop      | population, 1000s             |
+| price    | housing price index; 1982 = 1 |
+| linv     | log(inv)                      |
+| lpop     | log(pop)                      |
+| lprice   | log(price)                    |
+| t        | time trend: t=1,...,42        |
+| invpc    | per capita inv: inv/pop       |
+| linvpc   | log(invpc)                    |
+| lprice_1 | lprice[_n-1]                  |
+| linvpc_1 | linvpc[_n-1]                  |
+| gprice   | lprice - lprice_1             |
+| ginvpc   | linvpc - linvpc_1             |
++----------+-------------------------------+
+
+D. McFadden (1994), “Demographics, the Housing Market, and the Welfare
+of the Elderly,” in D.A. Wise (ed.), Studies in the Economics of
+Aging. Chicago: University of Chicago Press, 225-285. The data are
+contained in the article.

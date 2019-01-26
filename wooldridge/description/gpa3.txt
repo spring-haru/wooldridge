@@ -1,0 +1,33 @@
+name of dataset: gpa3
+no of variables: 23
+no of observations: 732
+
++----------+------------------------------+
+| variable | label                        |
++----------+------------------------------+
+| term     | fall = 1, spring = 2         |
+| sat      | SAT score                    |
+| tothrs   | total hours prior to term    |
+| cumgpa   | cumulative GPA               |
+| season   | =1 if in season              |
+| frstsem  | =1 if student's 1st semester |
+| crsgpa   | weighted course GPA          |
+| verbmath | verbal SAT to math SAT ratio |
+| trmgpa   | term GPA                     |
+| hssize   | size h.s. grad. class        |
+| hsrank   | rank in h.s. class           |
+| id       | student identifier           |
+| spring   | =1 if spring term            |
+| female   | =1 if female                 |
+| black    | =1 if black                  |
+| white    | =1 if white                  |
+| ctrmgpa  | change in trmgpa             |
+| ctothrs  | change in total hours        |
+| ccrsgpa  | change in crsgpa             |
+| ccrspop  | change in crspop             |
+| cseason  | change in season             |
+| hsperc   | percentile in h.s.           |
+| football | =1 if football player        |
++----------+------------------------------+
+
+See GPA2.RAW

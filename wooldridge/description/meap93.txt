@@ -1,0 +1,30 @@
+name of dataset: meap93
+no of variables: 17
+no of observations: 408
+
++----------+---------------------------------+
+| variable | label                           |
++----------+---------------------------------+
+| lnchprg  | perc of studs in sch lnch prog  |
+| enroll   | school enrollment               |
+| staff    | staff per 1000 students         |
+| expend   | expend. per stud, $             |
+| salary   | avg. teacher salary, $          |
+| benefits | avg. teacher benefits, $        |
+| droprate | school dropout rate, perc       |
+| gradrate | school graduation rate, perc    |
+| math10   | perc studs passing MEAP math    |
+| sci11    | perc studs passing MEAP science |
+| totcomp  | salary + benefits               |
+| ltotcomp | log(totcomp)                    |
+| lexpend  | log of expend                   |
+| lenroll  | log(enroll)                     |
+| lstaff   | log(staff)                      |
+| bensal   | benefits/salary                 |
+| lsalary  | log(salary)                     |
++----------+---------------------------------+
+
+I collected these data from the old Michigan Department of Education
+web site. See MATHPNL.RAW for the current web site. I used data on
+most high schools in the state of Michigan for 1993. I dropped some
+high schools that had suspicious-looking data.

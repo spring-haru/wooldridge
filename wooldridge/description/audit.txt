@@ -1,0 +1,18 @@
+name of dataset: audit
+no of variables: 3
+no of observations: 241
+
++----------+--------------------------------+
+| variable | label                          |
++----------+--------------------------------+
+| w        | =1 if white app. got job offer |
+| b        | =1 if black app. got job offer |
+| y        | b - w                          |
++----------+--------------------------------+
+
+These data come from a 1988 Urban Institute audit study in the
+Washington, D.C. area. I obtained them from the article “The Urban
+Institute Audit Studies: Their Methods and Findings,” by James J.
+Heckman and Peter Siegelman. In Fix, M. and Struyk, R., eds., Clear
+and Convincing Evidence: Measurement of Discrimination in America.
+Washington, D.C.: Urban Institute Press, 1993, 187-258.

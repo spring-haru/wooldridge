@@ -1,0 +1,31 @@
+name of dataset: beauty
+no of variables: 17
+no of observations: 1260
+
++----------+-------------------------------+
+| variable | label                         |
++----------+-------------------------------+
+| wage     | hourly wage                   |
+| lwage    | log(wage)                     |
+| belavg   | =1 if looks <= 2              |
+| abvavg   | =1 if looks >=4               |
+| exper    | years of workforce experience |
+| looks    | from 1 to 5                   |
+| union    | =1 if union member            |
+| goodhlth | =1 if good health             |
+| black    | =1 if black                   |
+| female   | =1 if female                  |
+| married  | =1 if married                 |
+| south    | =1 if live in south           |
+| bigcity  | =1 if live in big city        |
+| smllcity | =1 if live in small city      |
+| service  | =1 if service industry        |
+| expersq  | exper^2                       |
+| educ     | years of schooling            |
++----------+-------------------------------+
+
+Hamermesh, D.S. and J.E. Biddle (1994), “Beauty and the Labor Market,”
+American Economic Review 84, 1174-1194. Professor Hamermesh kindly
+provided me with the data. For manageability, I have included only a
+subset of the variables, which results in somewhat larger sample sizes
+than reported for the regressions in the Hamermesh and Biddle paper.

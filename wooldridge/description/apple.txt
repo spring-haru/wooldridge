@@ -1,0 +1,32 @@
+name of dataset: apple
+no of variables: 17
+no of observations: 660
+
++----------+---------------------------------+
+| variable | label                           |
++----------+---------------------------------+
+| id       | respondent identifier           |
+| educ     | years schooling                 |
+| date     | date:  month/day/year           |
+| state    | home state                      |
+| regprc   | price of regular apples         |
+| ecoprc   | price of ecolabeled apples      |
+| inseason | =1 if interviewed in Nov.       |
+| hhsize   | household size                  |
+| male     | =1 if male                      |
+| faminc   | family income, thousands        |
+| age      | in years                        |
+| reglbs   | quantity regular apples, pounds |
+| ecolbs   | quantity ecolabeled apples, lbs |
+| numlt5   | # in household younger than 5   |
+| num5_17  | # in household 5 to 17          |
+| num18_64 | # in household 18 to 64         |
+| numgt64  | # in household older than 64    |
++----------+---------------------------------+
+
+These data were used in the doctoral dissertation of Jeffrey Blend,
+Department of Agricultural Economics, Michigan State University, 1998.
+The thesis was supervised by Professor Eileen van Ravensway. Drs.
+Blend and van Ravensway kindly provided the data, which were obtained
+from a telephone survey conducted by the Institute for Public Policy
+and Social Research at MSU.

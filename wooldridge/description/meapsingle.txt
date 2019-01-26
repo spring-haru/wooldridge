@@ -1,0 +1,31 @@
+name of dataset: meapsingle
+no of variables: 18
+no of observations: 229
+
++----------+----------------------------------------------------+
+| variable | label                                              |
++----------+----------------------------------------------------+
+| dcode    | district code                                      |
+| bcode    | building code                                      |
+| math4    | percent satisfactory - 4th grade math              |
+| read4    | percent satisfactory - 4th grade reading           |
+| enroll   | school enrollment                                  |
+| exppp    | expenditures per pupil ($)                         |
+| free     | percent eligible - free lunch                      |
+| reduced  | percent eligible - reduced lunch                   |
+| lunch    | free + reduced                                     |
+| medinc   | zipcode median family - $ (1999)                   |
+| totchild | # of children (in zipcode)                         |
+| married  | # of children in married-couple families           |
+| single   | # of children not in married-couple families       |
+| pctsgle  | percent of children not in married-couple families |
+| zipcode  | school zipcode                                     |
+| lenroll  | log(enroll)                                        |
+| lexppp   | log(exppp)                                         |
+| lmedinc  | log(medinc)                                        |
++----------+----------------------------------------------------+
+
+Collected by Professor Leslie Papke, an economics professor at MSU,
+from the Michigan Department of Education web site,
+www.michigan.gov/mde, and the U.S. Census Bureau. Professor Papke
+kindly provided the data.

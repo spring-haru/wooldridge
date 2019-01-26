@@ -1,0 +1,21 @@
+name of dataset: hprice1
+no of variables: 10
+no of observations: 88
+
++----------+------------------------------+
+| variable | label                        |
++----------+------------------------------+
+| price    | house price, $1000s          |
+| assess   | assessed value, $1000s       |
+| bdrms    | number of bdrms              |
+| lotsize  | size of lot in square feet   |
+| sqrft    | size of house in square feet |
+| colonial | =1 if home is colonial style |
+| lprice   | log(price)                   |
+| lassess  | log(assess                   |
+| llotsize | log(lotsize)                 |
+| lsqrft   | log(sqrft)                   |
++----------+------------------------------+
+
+Collected from the real estate pages of the Boston Globe during 1990.
+These are homes that sold in the Boston, MA area.

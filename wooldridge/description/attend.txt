@@ -1,0 +1,26 @@
+name of dataset: attend
+no of variables: 11
+no of observations: 680
+
++----------+------------------------------+
+| variable | label                        |
++----------+------------------------------+
+| attend   | classes attended out of 32   |
+| termGPA  | GPA for term                 |
+| priGPA   | cumulative GPA prior to term |
+| ACT      | ACT score                    |
+| final    | final exam score             |
+| atndrte  | percent classes attended     |
+| hwrte    | percent homework turned in   |
+| frosh    | =1 if freshman               |
+| soph     | =1 if sophomore              |
+| missed   | number of classes missed     |
+| stndfnl  | (final - mean)/sd            |
++----------+------------------------------+
+
+These data were collected by Professors Ronald Fisher and Carl
+Liedholm during a term in which they both taught principles of
+microeconomics at Michigan State University. Professors Fisher and
+Liedholm kindly gave me permission to use a random subset of their
+data, and their research assistant at the time, Jeffrey Guilfoyle, who
+completed his Ph.D. in economics at MSU, provided helpful hints.

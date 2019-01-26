@@ -1,0 +1,37 @@
+name of dataset: ezanders
+no of variables: 25
+no of observations: 108
+
++----------+-----------------------+
+| variable | label                 |
++----------+-----------------------+
+| month    | name of month         |
+| uclms    | unemployment claims   |
+| ez       | =1 if enterprise zone |
+| year     | 1980 through 1988     |
+| y81      | =1 if year == 1981    |
+| y82      |                       |
+| y83      |                       |
+| y84      |                       |
+| y85      |                       |
+| y86      |                       |
+| y87      |                       |
+| y88      |                       |
+| luclms   | log(uclms)            |
+| jan      | =1 if month == JAN    |
+| feb      |                       |
+| mar      |                       |
+| apr      |                       |
+| may      |                       |
+| jun      |                       |
+| jul      |                       |
+| aug      |                       |
+| sep      |                       |
+| oct      |                       |
+| nov      |                       |
+| dec      |                       |
++----------+-----------------------+
+
+L.E. Papke (1994), “Tax Policy and Urban Development: Evidence from
+the Indiana Enterprise Zone Program,” Journal of Public Economics 54,
+37-49. Professor Papke kindly provided these data.

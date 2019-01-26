@@ -1,0 +1,47 @@
+name of dataset: crime2
+no of variables: 34
+no of observations: 92
+
++----------+----------------------------+
+| variable | label                      |
++----------+----------------------------+
+| pop      | population                 |
+| crimes   | total number index crimes  |
+| unem     | unemployment rate          |
+| officers | number police officers     |
+| pcinc    | per capita income          |
+| west     | =1 if city in west         |
+| nrtheast | =1 if city in NE           |
+| south    | =1 if city in south        |
+| year     | 82 or 87                   |
+| area     | land area, square miles    |
+| d87      | =1 if year = 87            |
+| popden   | people per sq mile         |
+| crmrte   | crimes per 1000 people     |
+| offarea  | officers per sq mile       |
+| lawexpc  | law enforce. expend. pc, $ |
+| polpc    | police per 1000 people     |
+| lpop     | log(pop)                   |
+| loffic   | log(officers)              |
+| lpcinc   | log(pcinc)                 |
+| llawexpc | log(lawexpc)               |
+| lpopden  | log(popden)                |
+| lcrimes  | log(crimes)                |
+| larea    | log(area)                  |
+| lcrmrte  | log(crmrte)                |
+| clcrimes | change in lcrimes          |
+| clpop    | change in lpop             |
+| clcrmrte | change in lcrmrte          |
+| lpolpc   | log(polpc)                 |
+| clpolpc  | change in lpolpc           |
+| cllawexp | change in llawexp          |
+| cunem    | change in unem             |
+| clpopden | change in lpopden          |
+| lcrmrt_1 | lcrmrte lagged             |
+| ccrmrte  | change in crmrte           |
++----------+----------------------------+
+
+These data were collected by David Dicicco, a former MSU
+undergraduate, for a final project. They came from various issues of
+the County and City Data Book, and are for the years 1982 and 1985.
+Unfortunately, I do not have the list of cities.

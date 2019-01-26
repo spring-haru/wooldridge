@@ -1,0 +1,23 @@
+name of dataset: smoke
+no of variables: 10
+no of observations: 807
+
++----------+-------------------------------+
+| variable | label                         |
++----------+-------------------------------+
+| educ     | years of schooling            |
+| cigpric  | state cig. price, cents/pack  |
+| white    | =1 if white                   |
+| age      | in years                      |
+| income   | annual income, $              |
+| cigs     | cigs. smoked per day          |
+| restaurn | =1 if rest. smk. restrictions |
+| lincome  | log(income)                   |
+| agesq    | age^2                         |
+| lcigpric | log(cigprice)                 |
++----------+-------------------------------+
+
+J. Mullahy (1997), “Instrumental-Variable Estimation of Count Data
+Models: Applications to Models of Cigarette Smoking Behavior,” Review
+of Economics and Statistics 79, 596-593. Professor Mullahy kindly
+provided the data.

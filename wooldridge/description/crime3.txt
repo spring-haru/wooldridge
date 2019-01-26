@@ -1,0 +1,24 @@
+name of dataset: crime3
+no of variables: 12
+no of observations: 106
+
++----------+--------------------------------+
+| variable | label                          |
++----------+--------------------------------+
+| district | district number                |
+| year     | 72 or 78                       |
+| crime    | crimes per 1000 people         |
+| clrprc1  | clear-up perc, prior year      |
+| clrprc2  | clear-up perc, two-years prior |
+| d78      | =1 if year = 78                |
+| avgclr   | (clrprc1 + clrprc2)/2          |
+| lcrime   | log(crime)                     |
+| clcrime  | change in lcrime               |
+| cavgclr  | change in avgclr               |
+| cclrprc1 | change in clrprc1              |
+| cclrprc2 | change in clrprc2              |
++----------+--------------------------------+
+
+E. Eide (1994), Economics of Crime: Deterrence of the Rational
+Offender. Amsterdam: North Holland. The data come from Tables A3 and
+A6.
