@@ -5,28 +5,25 @@
 A Python package which contains 111 data sets from one of the most famous **econometrics** textbooks for undergraduates.
 
 ## How to Use
-To import a `<dataset>`:
+First things first.
 ```
-from wooldridge import <dataset>
+from wooldridge import *
 ```
-For example, to load a data set `mroz` as pandas' `DataFrame` into `df`:
+To load a data set named `<dataset>`:
 ```
-from wooldridge import mroz
-df = mroz.load()
+dataWoo('<dataset>')
 ```
-To show the description (e.g. variable definitions and sources) of a data set loaded, use one of the followings:
+It returns pandas `DataFrame`. Note that `<dataset>` is entered in strings. For example, to load a data set `mroz` into `df`:
 ```
-help(mroz.load)
-?mroz.load
-mroz.load?
+df = dataWoo('mroz')
 ```
-To show the list of 111 data sets contained in the package when `<dataset>` is loaded:
+To show the description (e.g. variable definitions and sources) of a data set:
 ```
-<dataset>.wooldridge()
+dataWoo('mroz', description=True)
 ```
-For example,
+To show the list of 111 data sets contained in the package
 ```
-mroz.wooldridge()
+listWoo()
 ```
 
 ## How to Install
@@ -38,11 +35,6 @@ or
 git clone https://github.com/spring-haru/wooldridge.git
 pip install .
 ```
-
-## Notes on `401k` and `401ksubs`
-Those two data sets are renamed with an **underscore** as follows:
-* `401k` -> **`_401k`**
-* `401ksubs` -> **`_401ksubs`**
 
 #### Reference
 J.M. Wooldridge (2015) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.
