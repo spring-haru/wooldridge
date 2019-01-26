@@ -9,6 +9,10 @@ for filename in glob.iglob('./wooldridge/**', recursive=True):
     if '.csv.bz' in filename:
         additional_files.append(filename.replace('./wooldridge/', ''))
 
+for filename in glob.iglob('./wooldridge/**', recursive=True):
+    if '.txt' in filename:
+        additional_files.append(filename.replace('./wooldridge/', ''))
+
 setup(
     name='wooldridge',
     version='0.2.0',
