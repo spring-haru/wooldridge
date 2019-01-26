@@ -1,0 +1,6 @@
+variable,label
+state,state postal code
+year,"85, 90, or 95"
+admnrev,=1 if admin. revoc. law
+daysfrst,"days suspended, first offense"
+daysscnd,"days suspended, second offense"

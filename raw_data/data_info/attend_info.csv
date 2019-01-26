@@ -1,0 +1,12 @@
+variable,label
+attend,classes attended out of 32
+termGPA,GPA for term
+priGPA,cumulative GPA prior to term
+ACT,ACT score
+final,final exam score
+atndrte,percent classes attended
+hwrte,percent homework turned in
+frosh,=1 if freshman
+soph,=1 if sophomore
+missed,number of classes missed
+stndfnl,(final - mean)/sd

@@ -1,0 +1,13 @@
+variable,label
+open,"imports as % GDP ('73-)"
+inf,"avg. annual inflation ('73-)"
+pcinc,"1980 per capita inc. (U.S.$)"
+land,"land area (square miles)"
+oil,=1 if major oil producer
+good,=1 if good data
+lpcinc,log(pcinc)
+lland,log(land)
+lopen,log(open)
+linf,log(inf)
+opendec,open/100
+linfdec,log(inf/100)

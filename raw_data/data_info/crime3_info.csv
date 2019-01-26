@@ -1,0 +1,13 @@
+variable,label
+district,district number
+year,72 or 78
+crime,crimes per 1000 people
+clrprc1,"clear-up perc, prior year"
+clrprc2,"clear-up perc, two-years prior"
+d78,=1 if year = 78
+avgclr,(clrprc1 + clrprc2)/2
+lcrime,log(crime)
+clcrime,change in lcrime
+cavgclr,change in avgclr
+cclrprc1,change in clrprc1
+cclrprc2,change in clrprc2

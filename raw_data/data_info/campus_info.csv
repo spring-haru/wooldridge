@@ -1,0 +1,8 @@
+variable,label
+enroll,total enrollment
+priv,=1 if private college
+police,employed officers
+crime,total campus crimes
+lcrime,log(crime)
+lenroll,log(enroll)
+lpolice,log(police)

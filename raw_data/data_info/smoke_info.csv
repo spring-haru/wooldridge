@@ -1,0 +1,11 @@
+variable,label
+educ,years of schooling
+cigpric,"state cig. price, cents/pack"
+white,=1 if white
+age,in years
+income,"annual income, $"
+cigs,cigs. smoked per day
+restaurn,=1 if rest. smk. restrictions
+lincome,log(income)
+agesq,age^2
+lcigpric,log(cigprice)

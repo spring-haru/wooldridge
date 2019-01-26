@@ -1,0 +1,26 @@
+variable,label
+year,1950-1987
+avgmin,"weighted avg min wge, 44 indust"
+avgwage,"wghted avg hrly wge, 44 indust"
+kaitz,Kaitz min wage index
+avgcov,"wghted avg coverage, 8 indust"
+covt,economy-wide coverage of min wg
+mfgwage,avg manuf. wage
+prdef,Puerto Rican price deflator
+prepop,PR employ/popul ratio
+prepopf,"PR employ/popul ratio, alter."
+prgnp,PR GNP
+prunemp,PR unemployment rate
+usgnp,US GNP
+t,time trend:  1 to 38
+post74,time trend:  starts in 1974
+lprunemp,log(prunemp)
+lprgnp,log(prgnp)
+lusgnp,log(usgnp)
+lkaitz,log(kaitz)
+lprun_1,lprunemp[_n-1]
+lprepop,log(prepop)
+lprep_1,lprepop[_n-1]
+mincov,(avgmin/avgwage)*avgcov
+lmincov,log(mincov)
+lavgmin,log(avgmin)

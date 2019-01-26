@@ -1,0 +1,17 @@
+variable,label
+id,id
+month,month
+year,year
+sp500,S&P 500 index
+cpi,Consumer Price Index
+cpifood,CPI for food
+approve,Gallup approval rate - percent
+gasprice,average gas price - cents
+unemploy,unemployment rate - percent
+katrina,=1 for three months after Hurricane Katrina
+rgasprice,real gas price - 100*(gasprice/cpi)
+lrgasprice,log(rgasprice)
+sep11,=1 for 09/2001 and two months following
+iraqinvade,=1 for three months after Iraq invasion
+lsp500,log(sp500)
+lcpifood,log(cpifood)

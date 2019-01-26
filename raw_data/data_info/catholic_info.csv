@@ -1,0 +1,14 @@
+variable,label
+id, person identifier
+read12, eading standardized score
+math12, mathematics standardized score
+female, =1 if female
+asian, =1 if Asian
+hispan, =1 if Hispanic
+black, =1 if black
+motheduc, mother's years of education
+fatheduc, father's years of education
+lfaminc, log of family income
+hsgrad, =1 if graduated from high school by 1994
+cathhs, =1 if attended Catholic HS
+parcath, =1 if a parent reports being Catholic

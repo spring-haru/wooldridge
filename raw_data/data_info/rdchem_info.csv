@@ -1,0 +1,9 @@
+variable,label
+rd,"R&D spending, millions"
+sales,"firm sales, millions"
+profits,"profits, millions"
+rdintens,rd as percent of sales
+profmarg,profits as percent of sales
+salessq,sales^2
+lsales,log(sales)
+lrd,log(rd)
