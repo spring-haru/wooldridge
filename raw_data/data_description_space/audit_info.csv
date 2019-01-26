@@ -1,4 +1,0 @@
-d,c,b,a,variable,label
- , , , ,w,=1 if white app. got job offer
- , , , ,b,=1 if black app. got job offer
- , , , ,y,b - w
