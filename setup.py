@@ -22,6 +22,7 @@ setup(
     package_dir={'wooldridge': './wooldridge'},
     include_package_data=True,
     package_data={'wooldridge': additional_files},
+    install_requires=['pandas'],
     url='https://github.com/spring-haru/wooldridge',
     license='LICENSE',
     description='Data sets from Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)',
