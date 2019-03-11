@@ -7,7 +7,7 @@ def get_path(f):
 
 
 list = """\
-  J.M. Wooldridge (2015) Introductory Econometrics: A Modern Approach,
+  J.M. Wooldridge (2016) Introductory Econometrics: A Modern Approach,
   Cengage Learning, 6th edition.
 
   401k       401ksubs    admnrev       affairs     airfare
