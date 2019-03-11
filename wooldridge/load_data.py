@@ -9,7 +9,7 @@ def get_path(f):
 list = """\
   J.M. Wooldridge (2015) Introductory Econometrics: A Modern Approach,
   Cengage Learning, 6th edition.
-  
+
   401k       401ksubs    admnrev       affairs     airfare
   alcohol    apple       approval      athlet1     athlet2
   attend     audit       barium        beauty      benefits
@@ -35,13 +35,11 @@ list = """\
   wine"""
 
 
-def listWoo():
-    print(list)
-
-
-def dataWoo(name, description=False):
-    if description == False:
+def dataWoo(name=None, description=False):
+    if (name != None) & (description == False):
         return pd.read_csv(join(get_path(__file__), "datasets/" + name + ".csv.bz2"), compression="bz2")
-    else:
-        with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r') as f:
+    elif (name != None) & (description == True):
+        with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r', encoding="utf-8") as f:
             print(f.read())
+    elif name == None:
+        print(list)

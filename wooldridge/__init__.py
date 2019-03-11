@@ -4,7 +4,7 @@ Github page: https://github.com/spring-haru/wooldridge
 
 from .load_data import *
 
-__all__ = ['dataWoo', 'listWoo']
+__all__ = ['dataWoo']
 
 __author__ = 'Tetsu Haruyama'
 __version__ = '0.2.0'

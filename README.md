@@ -23,7 +23,7 @@ dataWoo('mroz', description=True)
 ```
 To show the list of 111 data sets contained in the package
 ```
-listWoo()
+dataWoo()
 ```
 
 ## How to Install
@@ -37,4 +37,4 @@ pip install .
 ```
 
 #### Reference
-J.M. Wooldridge (2015) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.
+J.M. Wooldridge (2016) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.

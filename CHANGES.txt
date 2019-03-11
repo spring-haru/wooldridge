@@ -1,3 +1,4 @@
+0.3.0 A function listWoo() is replaced with dataWoo().
 0.2.0 A function <dataset>.load() is replaced with dataWoo('<dataset>').
       A function help(<dataset>.load) is replaced with dataWoo('<dataset>', description=True).
       A function <dataset>.wooldridge() is replaced with listWoo().
