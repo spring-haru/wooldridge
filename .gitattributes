@@ -1,4 +1,0 @@
-# the following folders are ignored in identifying languages
-raw_data/* linguist-vendored
-wooldridge/datasets/* linguist-vendored
-wooldridge/description/* linguist-vendored
