@@ -37,7 +37,7 @@ pip install .
 ```
 
 ## Note
-The following introduced in the previous versions also works:
+The function `dataWoo()` introduced in the previous versions also works:
 ```
 from wooldridge import *
 
@@ -47,7 +47,7 @@ dataWoo('<dataset>', description=True)
 
 dataWoo()
 ```
-But this is now discouraged.
+But it is now discouraged.
 
 #### Reference
 J.M. Wooldridge (2016) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.
