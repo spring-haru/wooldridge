@@ -1,3 +1,4 @@
+0.4.0 A function data() is introduced.
 0.3.0 A function listWoo() is replaced with dataWoo().
 0.2.0 A function <dataset>.load() is replaced with dataWoo('<dataset>').
       A function help(<dataset>.load) is replaced with dataWoo('<dataset>', description=True).

@@ -7,23 +7,23 @@ A Python package which contains 111 data sets from one of the most famous **econ
 ## How to Use
 First things first.
 ```
-from wooldridge import *
+import wooldridge
 ```
 To load a data set named `<dataset>`:
 ```
-dataWoo('<dataset>')
+wooldridge.data('<dataset>')
 ```
 It returns pandas `DataFrame`. Note that `<dataset>` is entered in strings. For example, to load a data set `mroz` into `df`:
 ```
-df = dataWoo('mroz')
+df = wooldridge.data('mroz')
 ```
 To show the description (e.g. variable definitions and sources) of a data set:
 ```
-dataWoo('mroz', description=True)
+wooldridge.data('mroz', description=True)
 ```
 To show the list of 111 data sets contained in the package
 ```
-dataWoo()
+wooldridge.data()
 ```
 
 ## How to Install
@@ -35,6 +35,19 @@ or
 git clone https://github.com/spring-haru/wooldridge.git
 pip install .
 ```
+
+## Note
+The following introduced in the previous versions also works:
+```
+from wooldridge import *
+
+df = dataWoo('<dataset>')
+
+dataWoo('<dataset>', description=True)
+
+dataWoo()
+```
+But this is now discouraged.
 
 #### Reference
 J.M. Wooldridge (2016) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.

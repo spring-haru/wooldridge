@@ -6,7 +6,7 @@ def get_path(f):
     return split(abspath(f))[0]
 
 
-list = """\
+lst = """\
   J.M. Wooldridge (2016) Introductory Econometrics: A Modern Approach,
   Cengage Learning, 6th edition.
 
@@ -34,6 +34,14 @@ list = """\
   voucher    wage1       wage2         wagepan     wageprc
   wine"""
 
+def data(name=None, description=False):
+    if (name != None) & (description == False):
+        return pd.read_csv(join(get_path(__file__), "datasets/" + name + ".csv.bz2"), compression="bz2")
+    elif (name != None) & (description == True):
+        with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r', encoding="utf-8") as f:
+            print(f.read())
+    elif name == None:
+        print(lst)
 
 def dataWoo(name=None, description=False):
     if (name != None) & (description == False):
@@ -42,4 +50,4 @@ def dataWoo(name=None, description=False):
         with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r', encoding="utf-8") as f:
             print(f.read())
     elif name == None:
-        print(list)
+        print(lst)
