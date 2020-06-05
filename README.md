@@ -4,6 +4,8 @@
 ## Description
 A Python package which contains 111 data sets from one of the most famous **econometrics** textbooks for undergraduates.
 
+It is used in [Using Python for Introductory Econometrics](http://www.urfie.net), which is a sister book [Using R for Introductory Econometrics](http://www.urfie.net)
+
 ## How to Use
 First things first.
 ```
@@ -47,7 +49,6 @@ dataWoo('<dataset>', description=True)
 
 dataWoo()
 ```
-But it is now discouraged.
 
 #### Reference
 J.M. Wooldridge (2016) _Introductory Econometrics: A Modern Approach_, Cengage Learning, 6th edition.
