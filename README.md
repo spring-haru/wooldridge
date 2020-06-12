@@ -6,7 +6,7 @@ A Python package which contains 111 data sets from one of the most famous **econ
 
 It is used in [Using Python for Introductory Econometrics](http://www.urfie.net), which is a sister book [Using R for Introductory Econometrics](http://www.urfie.net).
 
-It is also extensively used in [Pythonで学ぶ入門計量経済学](https://haruyama-kobeu.github.io/book_etrics/docs/index.html) (Japanese). 
+It is also extensively used in [Pythonで学ぶ入門計量経済学](https://spring-book.github.io/py4etrics/) (Japanese). 
 
 ## How to Use
 First things first.
