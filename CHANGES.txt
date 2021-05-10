@@ -1,3 +1,4 @@
+0.4.3 README.md revised.
 0.4.2 A line is added to README.md.
 0.4.1 README.md is slightly changed.
 0.4.0 A function data() is introduced.
