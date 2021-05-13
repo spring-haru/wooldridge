@@ -1,3 +1,5 @@
+[![PyPI version fury.io](https://badge.fury.io/py/wooldridge.svg)](https://pypi.python.org/pypi/wooldridge/)
+
 # Wooldridge Meets Python
 ### Data sets from _Introductory Econometrics: A Modern Approach_ (7th ed, J.M. Wooldridge)
 
