@@ -7,9 +7,9 @@
 ## Description
 A Python package which contains 111 data sets from one of the most famous **econometrics** textbooks for undergraduates.
 
-It is used in [Using Python for Introductory Econometrics](http://www.upfie.net), which is a sister book [Using R for Introductory Econometrics](http://www.urfie.net).
+It is extensively used in [Pythonで学ぶ入門計量経済学](https://py4etrics.github.io) (Japanese). Its Google-translated version (in the language of your choice) is also available in [Learning Introductory Econometrics with Python](https://translate.google.com/translate?sl=auto&tl=en&u=https://py4etrics.github.io).
 
-It is also extensively used in [Pythonで学ぶ入門計量経済学](https://py4etrics.github.io) (Japanese).
+It is also used in [Using Python for Introductory Econometrics](http://www.upfie.net), which is a sister book [Using R for Introductory Econometrics](http://www.urfie.net).
 
 ## How to Use
 First things first.
