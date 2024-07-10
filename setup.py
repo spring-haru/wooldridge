@@ -13,7 +13,7 @@ for filename in glob.iglob('./wooldridge/**', recursive=True):
 
 setup(
     name='wooldridge',
-    version='0.4.5a',
+    version='0.4.5',
     author='Tetsu Haruyama',
     author_email='tetsu.yes@gmail.com',
     packages=find_packages(),
