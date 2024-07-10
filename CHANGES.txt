@@ -1,3 +1,4 @@
+0.4.5a BUG: could not import data in Windows (switched to os.walk())
 0.4.4 README.md revised.
 0.4.3 README.md revised.
 0.4.2 A line is added to README.md.

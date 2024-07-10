@@ -1,13 +1,10 @@
-from os.path import abspath, join, split
 import pandas as pd
-
-
-def get_path(f):
-    return split(abspath(f))[0]
+import os
+from os.path import abspath, join, split
 
 
 lst = """\
-  J.M. Wooldridge (2016) Introductory Econometrics: A Modern Approach,
+  J.M. Wooldridge (2019) Introductory Econometrics: A Modern Approach,
   Cengage Learning, 6th edition.
 
   401k       401ksubs    admnrev       affairs     airfare
@@ -34,20 +31,53 @@ lst = """\
   voucher    wage1       wage2         wagepan     wageprc
   wine"""
 
+
+def _get_path(f):
+    return split(abspath(f))[0]
+
+
+def _find_full_file_path(path, dataset_to_open):
+    """
+    parameters:
+        path: the folder of`py4macro.py`
+        dataset_to_open: dataset to open
+
+    return:
+        a full file path of `dataset_to_open` including its file name"""
+
+    for current_folder, sub_folders, _files in os.walk(path):
+        if dataset_to_open in _files:
+            return join(current_folder, dataset_to_open)
+
+
 def data(name=None, description=False):
+
     if (name != None) & (description == False):
-        return pd.read_csv(join(get_path(__file__), "datasets/" + name + ".csv.bz2"), compression="bz2")
+
+        full_file_path = _find_full_file_path(_get_path(__file__), name+".csv.bz2")
+        return pd.read_csv(full_file_path, compression="bz2")
+
     elif (name != None) & (description == True):
-        with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r', encoding="utf-8") as f:
+
+        full_file_path = _find_full_file_path(_get_path(__file__), name+".txt")
+        with open(full_file_path, 'r', encoding="utf-8") as f:
             print(f.read())
+
     elif name == None:
         print(lst)
 
 def dataWoo(name=None, description=False):
+
     if (name != None) & (description == False):
-        return pd.read_csv(join(get_path(__file__), "datasets/" + name + ".csv.bz2"), compression="bz2")
+
+        full_file_path = _find_full_file_path(_get_path(__file__), name+".csv.bz2")
+        return pd.read_csv(full_file_path, compression="bz2")
+
     elif (name != None) & (description == True):
-        with open(join(get_path(__file__), 'description/' + name + '.txt'), 'r', encoding="utf-8") as f:
+
+        full_file_path = _find_full_file_path(_get_path(__file__), name+".txt")
+        with open(full_file_path, 'r', encoding="utf-8") as f:
             print(f.read())
+
     elif name == None:
         print(lst)

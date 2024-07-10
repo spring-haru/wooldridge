@@ -1,6 +1,4 @@
 import glob
-import os
-import sys
 from setuptools import find_packages, setup
 
 
@@ -15,7 +13,7 @@ for filename in glob.iglob('./wooldridge/**', recursive=True):
 
 setup(
     name='wooldridge',
-    version='0.4.4',
+    version='0.4.5a',
     author='Tetsu Haruyama',
     author_email='tetsu.yes@gmail.com',
     packages=find_packages(),
@@ -25,7 +23,7 @@ setup(
     install_requires=['pandas'],
     url='https://github.com/spring-haru/wooldridge',
     license='LICENSE',
-    description='Data sets from Introductory Econometrics: A Modern Approach (6th ed, J.M. Wooldridge)',
+    description='Data sets from Introductory Econometrics: A Modern Approach (7th ed, J.M. Wooldridge)',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     keywords=['data', 'wooldridge', 'econometrics']
