@@ -6,7 +6,7 @@
 ### Data sets from _Introductory Econometrics: A Modern Approach_ (7th ed, J.M. Wooldridge)
 
 ## Description
-A Python package which contains 111 data sets from one of the most famous **econometrics** textbooks for undergraduates.
+A Python package which contains 115 data sets from one of the most famous **econometrics** textbooks for undergraduates.
 
 It is extensively used in [Pythonで学ぶ入門計量経済学](https://py4etrics.github.io) (Japanese). Its Google-translated version (in the language of your choice) is also available in [Learning Introductory Econometrics with Python](https://translate.google.com/translate?sl=auto&tl=en&u=https://py4etrics.github.io).
 

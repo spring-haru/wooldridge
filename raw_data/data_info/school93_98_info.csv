@@ -1,0 +1,19 @@
+﻿variable,label
+distid,
+schid,
+lunch,percent eligible for free lunch
+enrol,number of students
+exppp,exp per pupil
+math4,
+year,1993 = school year 1992–1993
+y93,
+y94,
+y95,
+y96,
+y97,
+y98,
+rexpp,(exppp/cpi)1.605: 1997 $
+found,
+lenrol,log(enrol)
+lrexpp,log(rexpp)
+lavgrexpp,log((rexpp + L.rexpp)/2)
