@@ -1,0 +1,29 @@
+name of dataset: school93_98
+no of variables: 18
+no of observations: 10668
+
++------------+-----------------------------------------------+
+| variable   | label                                         |
++------------+-----------------------------------------------+
+| distid     |                                               |
+| schid      |                                               |
+| lunch      | percent eligible for free lunch               |
+| enrol      | number of students                            |
+| exppp      | exp per pupil                                 |
+| math4      |                                               |
+| year       | 1993 = school year 1992–1993                  |
+| y93        |                                               |
+| y94        |                                               |
+| y95        |                                               |
+| y96        |                                               |
+| y97        |                                               |
+| y98        |                                               |
+| rexpp      | (exppp/cpi)1.605: 1997 $                      |
+| found      |                                               |
+| lenrol     | log(enrol)                                    |
+| lrexpp     | log(rexpp)                                    |
+| lavgrexpp  | log((rexpp + L.rexpp)/2)                      |
++------------+-----------------------------------------------+
+
+L.E. Papke (2005), “The Effects of Spending on Test Pass Rates: 
+Evidence from Michigan,” Journal of Public Economics 89, 821-839.

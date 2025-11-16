@@ -1,0 +1,15 @@
+﻿variable,label
+team,Name
+year,Year
+conference,Conference
+postrpi,Post Rank
+prerpi,Preseason Rank
+postrpi_1,Post Rank 1 yr ago
+postrpi_2,Post Rank 2 yrs ago
+recruitrank,Recruits Rank
+wins,Number of games won
+losses,Number of games lost
+winperc,Winning Percentage
+tourney,Tournament dummy
+coachexper,Coach Experience
+power5,PowerFive Dummy

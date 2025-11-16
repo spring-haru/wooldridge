@@ -1,0 +1,31 @@
+name of dataset: labsup
+no of variables: 20
+no of observations: 31857
+
++-----------+--------------------------------------------+
+| variable  | label                                      |
++-----------+--------------------------------------------+
+| kids      | number of kids                             |
+| morekids  | had more than 2 kids                       |
+| boys2     | first two births boys                      |
+| girls2    | first two births girls                     |
+| boy1st    | first birth boy                            |
+| boy2nd    | second birth boy                           |
+| samesex   | first two kids are of same sex             |
+| multi2nd  | =1 if 2nd birth is twin                    |
+| age       | age of mom                                 |
+| agefstm   | age of mom at first birth                  |
+| black     | =1 if black                                |
+| hispan    | =1 if Hispanic                             |
+| worked    | mom worked last year                       |
+| weeks     | weeks worked, mom                          |
+| hours     | hours of work per week, mom                |
+| labinc    | mom's labor income, $1000s                 |
+| faminc    | family income, $1000s                      |
+| nonmomi   | 'non-mom' income, $1000s                   |
+| educ      | mom's years of education                   |
+| agesq     | age squared                                |
++-----------+--------------------------------------------+
+
+The subset of data for black or Hispanic women used in 
+J.A. Angrist and W.E. Evans (1998)

@@ -5,7 +5,7 @@ from os.path import abspath, join, split
 
 lst = """\
   J.M. Wooldridge (2019) Introductory Econometrics: A Modern Approach,
-  Cengage Learning, 6th edition.
+  Cengage Learning, 7th edition.
 
   401k       401ksubs    admnrev       affairs     airfare
   alcohol    apple       approval      athlet1     athlet2
@@ -20,16 +20,17 @@ lst = """\
   fringe     gpa1        gpa2          gpa3        happiness
   hprice1    hprice2     hprice3       hseinv      htv
   infmrt     injury      intdef        intqrt      inven
-  jtrain     jtrain2     jtrain3       kielmc      lawsch85
-  loanapp    lowbrth     mathpnl       meap00_01   meap01
-  meap93     meapsingle  minwage       mlb1        mroz
-  murder     nbasal      nyse          okun        openness
-  pension    phillips    pntsprd       prison      prminwge
-  rdchem     rdtelec     recid         rental      return
-  saving     sleep75     slp75_81      smoke       traffic1
-  traffic2   twoyear     volat         vote1       vote2
-  voucher    wage1       wage2         wagepan     wageprc
-  wine"""
+  jtrain     jtrain2     jtrain3       jtrain98    kielmc
+  labsup     lawsch85    loanapp       lowbrth     mathpnl
+  meap00_01  meap01      meap93        meapsingle  minwage
+  mlb1       mroz        murder        nbasal      ncaa_rpi
+  nyse       okun        openness      pension     phillips
+  pntsprd    prminwge     prison        rdchem      rdtelec
+  recid      rental      return        saving      school93_98
+  sleep75    slp75_81    smoke         traffic1    traffic2
+  twoyear    volat       vote1         vote2       voucher
+  wage1      wage2       wagepan       wageprc     wine
+"""
 
 
 def _get_path(f):

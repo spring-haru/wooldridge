@@ -1,0 +1,27 @@
+name of dataset: ncaa_rpi
+no of variables: 14
+no of observations: 336
+
++-------------+------------------------------+
+| variable    | label                        |
++-------------+------------------------------+
+| team        | Name                         |
+| year        | Year                         |
+| conference  | Conference                   |
+| postrpi     | Post Rank                    |
+| prerpi      | Preseason Rank               |
+| postrpi_1   | Post Rank 1 yr ago           |
+| postrpi_2   | Post Rank 2 yrs ago          |
+| recruitrank | Recruits Rank                |
+| wins        | Number of games won          |
+| losses      | Number of games lost         |
+| winperc     | Winning Percentage           |
+| tourney     | Tournament dummy             |
+| coachexper  | Coach Experience             |
+| power5      | PowerFive Dummy              |
++-------------+------------------------------+
+
+Data on NCAA men’s basketball teams, collected by Weizhao
+Sun for a senior seminar project in sports economics at Michigan State 
+University, Spring 2017. He used various sources, including www.espn.com and
+www.teamrankings.com/ncaa-basketball/rpi-ranking/rpi-rating-by-team.

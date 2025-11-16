@@ -24,7 +24,7 @@ setup(
     url='https://github.com/spring-haru/wooldridge',
     license='LICENSE',
     description='Data sets from Introductory Econometrics: A Modern Approach (7th ed, J.M. Wooldridge)',
-    long_description=open('README.md').read(),
+    long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type='text/markdown',
     keywords=['data', 'wooldridge', 'econometrics']
 )

@@ -1,0 +1,11 @@
+﻿variable,label
+train,=1 if in job training
+age,in years
+educ,years of schooling
+black, =1 if black
+hisp, =1 if Hispanic
+married, =1 if married
+earn96,"earnings in 1996, $1000s"
+unem96, =1 if unemployed all of 1995
+earn98,"earnings in 1998, $1000s"
+unem98, =1 if unemployed all of 1988
